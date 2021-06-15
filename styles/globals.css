@@ -35,14 +35,17 @@ body {
 
 .card {
   color: var(--clr-neutral-100);
-  background-image: url("/images/code_000.jpg");
-  background-position: center;
-  background-size: cover;
   padding: 10rem 0 0;
   max-width: 35ch;
+  min-height: 28rem;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
+  position: relative;
+}
+
+.card_img {
+  filter: brightness(60%);
 }
 
 .card:hover,
@@ -51,6 +54,8 @@ body {
 }
 
 .card_content {
+  min-height: 20rem;
+  position: relative;
   --padding: 1.5rem;
   padding: var(--padding);
   background: linear-gradient(
@@ -84,6 +89,7 @@ body {
 }
 
 .card_body {
+  position: relative;
   color: rgba(255, 255, 255, 0.86);
 }
 

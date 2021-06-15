@@ -1,42 +1,32 @@
+import Card from "../components/Card";
+
 export default function Home() {
   return (
     <div className="wrapper">
-      <div className="card">
-        <div className="card_content">
-          <h2 className="card_title">Something marvelous</h2>
-          <p className="card_body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-            minus! Vitae alias
-          </p>
-          <a href="#" className="button">
-            See more
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <div className="card_content">
-          <h2 className="card_title">Something marvelous</h2>
-          <p className="card_body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-            minus! Vitae alias
-          </p>
-          <a href="#" className="button">
-            See more
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <div className="card_content">
-          <h2 className="card_title">Something marvelous</h2>
-          <p className="card_body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-            minus! Vitae alias
-          </p>
-          <a href="#" className="button">
-            See more
-          </a>
-        </div>
-      </div>
+      <Card
+        image="/images/bootcamp1.jpg"
+        title="Fundamentals"
+        description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
+        link="https://developer.mozilla.org/en-US/docs/Learn"
+      />
+      <Card
+        image="/images/bootcamp5.jpg"
+        title="Fundamentals"
+        description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
+        link="https://developer.mozilla.org/en-US/docs/Learn"
+      />
+      <Card
+        image="/images/bootcamp6.jpg"
+        title="Fundamentals"
+        description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
+        link="https://developer.mozilla.org/en-US/docs/Learn"
+      />
+      <Card
+        image="/images/code_002.jpg"
+        title="Fundamentals"
+        description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
+        link="https://developer.mozilla.org/en-US/docs/Learn"
+      />
     </div>
   );
 }

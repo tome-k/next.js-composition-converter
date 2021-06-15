@@ -13,7 +13,9 @@
 }
 
 body {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   place-items: center;
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -23,9 +25,18 @@ body {
   font-family: sans-serif;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
 .card {
   color: var(--clr-neutral-100);
-  background-image: url("/images/code_001.jpg");
+  background-image: url("/images/code_000.jpg");
+  background-position: center;
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 35ch;

@@ -37,7 +37,7 @@ body {
   color: var(--clr-neutral-100);
   padding: 10rem 0 0;
   max-width: 35ch;
-  min-height: 28rem;
+  min-height: 25.7rem;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
@@ -54,7 +54,7 @@ body {
 }
 
 .card_content {
-  min-height: 20rem;
+  /* min-height: 20rem; */
   position: relative;
   --padding: 1.5rem;
   padding: var(--padding);
